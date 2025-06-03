@@ -18,7 +18,7 @@ do
   # Add the changes to the git staging area
   git add README.md
   # Commit the changes with the appropriate message
-  git commit -m "GIT-2 commit $commit_number"
+  git commit -m "GIT-6 commit $commit_number"
   # Output the progress
   echo "Added and committed: - commit $commit_number"
 done
