@@ -11,7 +11,7 @@ if ! [[ "$max_commits" =~ ^[0-9]+$ ]] || [ "$max_commits" -le 0 ]; then
   exit 1
 fi
 # Loop through commit numbers from 1 to the max_commits
-for commit_number in $(seq 1 "$max_commits")
+for commit_number in $(seq 121 "$max_commits")
 do
   # Append the new line to README.md
   echo "- commit $commit_number" >> README.md
